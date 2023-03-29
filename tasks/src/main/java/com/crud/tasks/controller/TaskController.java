@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/v1/tasks")
 public class TaskController {
-    @GetMapping
+    @RequestMapping(method = RequestMethod.GET, value = "getTasks")
     public List<TaskDto> getTasks() {
         return new ArrayList<>();
     }
