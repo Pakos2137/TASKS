@@ -24,6 +24,6 @@ public class TaskController {
         return new TaskDto(1L, "Edited test title", "Test content");
     }
     @PostMapping
-    public void createTask(TaskDto taskDto) {
+    public void createTask(@PathVariable TaskDto taskDto) {
     }
 }
