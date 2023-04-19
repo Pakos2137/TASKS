@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.crud.tasks:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_crud_tasks_jar</output-path>
+    <root id="archive" name="com.crud.tasks.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
